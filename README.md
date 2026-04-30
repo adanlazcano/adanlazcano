@@ -124,30 +124,6 @@
   <img src="https://raw.githubusercontent.com/adanlazcano/adanlazcano/output/github-contribution-grid-snake-dark.svg" />
 </div>
 
-> Para activar la serpiente, crea `.github/workflows/snake.yml` en tu repo `adanlazcano/adanlazcano`:
-> ```yaml
-> name: Generate Snake
-> on:
->   schedule: [{ cron: "0 0 * * *" }]
->   workflow_dispatch:
-> jobs:
->   generate:
->     runs-on: ubuntu-latest
->     steps:
->       - uses: Platane/snk@v3
->         with:
->           github_user_name: adanlazcano
->           outputs: |
->             dist/github-contribution-grid-snake.svg
->             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
->       - uses: crazy-max/ghaction-github-pages@v3
->         with:
->           target_branch: output
->           build_dir: dist
->         env:
->           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-> ```
-
 ---
 
 ## 📫 Let's Connect
