@@ -116,15 +116,6 @@
   <img src="https://github-profile-trophy.vercel.app/?username=adanlazcano&theme=tokyonight&no-frame=true&row=1&column=6" />
 </div>
 
----
-
-## 🐍 Contribution Graph
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/adanlazcano/adanlazcano/output/github-contribution-grid-snake-dark.svg" />
-</div>
-
----
 
 ## 📫 Let's Connect
 
